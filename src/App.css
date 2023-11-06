@@ -1,0 +1,47 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+}
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 700px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+input {
+  background-color: lightgray;
+  height: 60px;
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+  font-size: 28px;
+  color: rgb(36, 36, 36);
+  padding: 0 15px;
+}
+
+label {
+  font-size: 30px;
+  font-weight: bold;
+}
+.flex-item {
+  width: 100%;
+  text-align: center;
+}
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 46px;
+  cursor: pointer;
+}
